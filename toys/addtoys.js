@@ -13,7 +13,7 @@ const addToy = async () => {
         description: 'Leader Autobot'
     }
 
-const addToy = await toysCollection.insertOne(myToy)
+const addedToy = await toysCollection.insertOne(myToy)
  console.log(addedToy)
 
 }
