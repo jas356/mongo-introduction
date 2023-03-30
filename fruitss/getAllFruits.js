@@ -11,7 +11,7 @@ const getAllFruits = async () => {
 	} finally {
 		await client.close()
 	}
-
+// test
 	/*** using .then .catch */
 	// collection
 	// 	.find()
